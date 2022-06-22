@@ -1,0 +1,10 @@
+@media only screen and (max-width: 425px) {
+    #addToCartbtn{
+        font-size: 12px !important;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    #addToCartbtn{
+        font-size: 8px !important;
+    }
+  }

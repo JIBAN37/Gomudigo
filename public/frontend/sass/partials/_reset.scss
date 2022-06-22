@@ -1,0 +1,56 @@
+body {
+  font-size: 0.9375rem;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  transition: 300ms ease;
+  text-decoration: none;
+  color: $color-black;
+
+  &:hover {
+    color: $color-text !important;
+  }
+}
+
+.container {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-control,
+.form-select {
+  font-size: 0.8125rem;
+  padding: 0.5rem 0.75rem;
+
+  &:focus {
+    box-shadow: none;
+    border: none;
+  }
+}
+
+.btn {
+  &:focus {
+    box-shadow: none;
+    border: none;
+  }
+}
+
+// medium devices
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

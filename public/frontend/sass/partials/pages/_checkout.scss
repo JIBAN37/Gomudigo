@@ -1,0 +1,14 @@
+#main {
+  .checkout {
+    .options {
+      .item {
+        width: 260px;
+
+        &:hover {
+          box-shadow: 0 0.125rem 0.5rem 0
+            rgba($color: $color-hover, $alpha: 0.75) !important;
+        }
+      }
+    }
+  }
+}

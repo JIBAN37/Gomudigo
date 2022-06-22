@@ -1,0 +1,14 @@
+#footer {
+  .footer-navbar-sm {
+    z-index: 1000;
+
+    .footer-navbar-nav {
+      .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-black;
+      }
+    }
+  }
+}

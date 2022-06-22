@@ -1,0 +1,32 @@
+#main {
+  .track-order {
+    .card {
+      .order {
+        display: grid;
+        grid-template-columns: 4.5rem 1fr;
+        gap: 1rem;
+
+        .order-details {
+          border-left: 1px solid $color-primary;
+          padding-left: 1.5rem;
+          position: relative;
+
+          .is-completed {
+            font-size: 1.375rem;
+            width: 1.375rem;
+            height: 1.375rem;
+            border: 1px solid $color-primary;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $color-white;
+            position: absolute;
+            top: -0.5rem;
+            left: -0.75rem;
+          }
+        }
+      }
+    }
+  }
+}

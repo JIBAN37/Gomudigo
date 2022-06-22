@@ -1,0 +1,92 @@
+// background colors
+.gmg-bg-light-orange {
+  background-color: $color-light-yellow !important;
+}
+.gmg-bg-orange {
+  background-color: $color-primary !important;
+}
+
+.gmg-bg-red {
+  background-color: $color-red !important;
+}
+
+.gmg-bg-deep-red {
+  background-color: $color-deep-red !important;
+}
+
+.gmg-bg-muted {
+  background-color: rgba($color: $color-hover, $alpha: 0.4) !important;
+}
+
+.gmg-bg-black {
+  color: $color-black !important;
+}
+
+.gmg-bg-blue-10 {
+  background-color: #ffcd93;
+}
+
+// text colors
+.gmg-text-black {
+  color: $color-black !important;
+}
+
+.gmg-text-orange {
+  color: $color-primary !important;
+}
+
+.gmg-text-light-orange {
+  color: $color-light-yellow !important;
+}
+
+.gmg-text-red {
+  color: $color-red !important;
+}
+
+.gmg-text-deep-red {
+  color: $color-deep-red !important;
+}
+
+.gmg-text-blue {
+  color: $color-secondary !important;
+}
+
+.btn-orange {
+  padding: 0.5rem 0.75rem;
+  font-size: 100%;
+  font-weight: 600;
+  border: 1px solid $color-primary;
+  color: $color-white;
+  background-color: $color-primary;
+
+  &:hover {
+    color: $color-white;
+    background-color: rgba($color: $color-primary, $alpha: 0.9);
+  }
+}
+
+// font size
+.fs-15 {
+  font-size: 0.9375rem;
+}
+
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+.fs-13 {
+  font-size: 0.8125rem;
+}
+
+.fs-12 {
+  font-size: 0.75rem;
+}
+
+.fs-10 {
+  font-size: 0.625rem;
+}
+
+// navbar
+.navbar-gmg {
+  @extend .gmg-bg-blue-10;
+}

@@ -1,0 +1,25 @@
+#main {
+  .cart-content {
+    .table {
+      vertical-align: middle;
+
+      .controls {
+        .arrow {
+          cursor: pointer;
+          transition: 300ms ease-in-out;
+
+          &:hover {
+            font-size: 1.25rem;
+          }
+        }
+      }
+
+      .rm-product {
+        &:hover {
+          transform: scale(1.1);
+          color: $color-red;
+        }
+      }
+    }
+  }
+}
